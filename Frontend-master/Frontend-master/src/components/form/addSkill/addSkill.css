@@ -1,0 +1,92 @@
+  /*---------------------------------------------------------------------------------------------------------------------*/
+  .skilldetails{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    min-width: 180px;
+}
+
+.skilldetails h2{
+  /* margin:0 20px; */
+  padding: 5px 0;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: solid 1px #C8CAFF;
+  font-weight: lighter;
+  color: rgb(31, 27, 27);
+  text-align: left;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.skillcreateArea{
+    width: 100%;
+}
+
+.skillcreateArea form{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #C8CAFF;
+  margin:15px 0px;
+}
+
+.skillcreateArea form input{
+  background-color: #C8CAFF;
+  /* font-family: inherit; */
+      border: none;  
+      height: 100%;
+      padding: 10px;
+      font-size: 0.7rem;
+      width: 100%;
+      font-family: 'Montserrat', sans-serif;
+      
+}
+
+.skilladdicon{
+  transform: scale(0.9);
+}
+
+.skillgrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 20px;
+  /* margin-left: 20px; */
+  
+ }
+
+.skill-grid-item{
+  color:black;
+  min-height: 50px;
+  background-color: #DCDCE6;
+  /* margin: 20px; */
+  padding: 2px;
+  font-size: 0.7rem;
+  /* margin: 5px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 220px;
+  min-width: 100px;
+}
+
+.skilldeleteicon{
+  transform: scale(0.8);
+  color: #5A5EB2;
+}
+
+.skill-grid-item h3{
+  font-size: 0.8rem;
+  color: black;
+  font-weight: bold;
+  /* margin-left: 5px; */
+}
+
+.skilldetails .inputholder p{
+transform: scale(0.9);
+margin-bottom: 4px;
+}
